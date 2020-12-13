@@ -2,5 +2,5 @@ language: python
 python:
   - "3.7"
 sudo: required
-before_install: sudo pip install -r requirements.txt --no-index --find-links file:///tmp/packages
+before_install: sudo pip install -r requirements.txt --no-index
 script: true
